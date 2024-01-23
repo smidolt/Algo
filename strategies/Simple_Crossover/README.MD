@@ -62,3 +62,5 @@ The strategy determines the exit points using the `populate_exit_trend` method w
   - The current OBV is lower than the previous OBV.
 
 ## Disclaimer
+
+This strategy is provided for educational purposes only and should not be considered financial advice. Use it at your own risk and make sure to test it thoroughly before using it in a live trading environment.
