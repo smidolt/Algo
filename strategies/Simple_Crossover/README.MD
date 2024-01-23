@@ -1,5 +1,3 @@
-**README**
-
 # TrendFollow Strategy
 
 This is a simple trend-following strategy implemented in Python using the Freqtrade framework. The strategy is designed to work on a 5-minute timeframe and aims to capture short-term price trends in the market.
