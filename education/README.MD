@@ -1,8 +1,6 @@
-**README**
-
 # Education Folder
 
-Welcome to the Education folder! This space is dedicated to foundational knowledge, guidelines, and fundamental concepts essential for understanding the world of trading. However, please note that you won't find specific trading strategies, innovative ideas, or other crucial insights here.
+Welcome to this Education folder! This space is dedicated to foundational knowledge, guidelines, and fundamental concepts essential for understanding the world of trading. However, please note that you won't find specific trading strategies, innovative ideas, or other crucial insights here.
 
 **What You Can't Find Here:**
 - Interesting trading strategies
