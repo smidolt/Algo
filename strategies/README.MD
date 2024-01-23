@@ -1,5 +1,3 @@
-**README**
-
 # Trading Strategies
 
 Welcome to my Trading Strategies collection! Each strategy is designed to cater to specific market conditions and aims to optimize trading outcomes. Below is a brief overview of the strategies available in this repository.
