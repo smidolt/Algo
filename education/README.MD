@@ -12,6 +12,6 @@ Welcome to the Education folder! This space is dedicated to foundational knowled
 **Where to Go Next:**
 If you are seeking actionable strategies, innovative ideas, or critical insights, it's recommended to navigate to the individual strategy folders. Each strategy folder contains detailed README files providing comprehensive information about specific trading approaches and implementations.
 
-This Education folder aims to provide the groundwork for mine (your) trading journey. For more hands-on and strategy-specific content, explore the strategy folders accordingly.
+This Education folder aims to provide the groundwork for ~~mine~~ your trading journey. For more hands-on and strategy-specific content, explore the strategy folders accordingly.
 
 Happy learning and trading!
