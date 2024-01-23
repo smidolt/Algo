@@ -1,5 +1,3 @@
-**README**
-
 # Algo Trading  Repository
 
 Greetings! You've landed in the Algo Trading Strategies repository, a hub of strategies, boots, and intriguing information.
