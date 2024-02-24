@@ -15,19 +15,19 @@ def telegram_bot (token):
 
     @bot.message_handler(commands=["start"])
     def start_message(message):
-        bot.send_message(message.chat.id, "Hi, enter any cryptocurrency ticker such as btc/xrp, or any other you like. \nIf you don\'t know what tickers exist, write \'tickers\'.")
+        bot.send_message(message.chat.id, "Hi, enter any cryptocurrency ticker in any register such as \'btc\', or any other you like. \nIf you don\'t know what tickers exist, write \'tickers\'.")
 
 
     @bot.message_handler(content_types=['text'])
     def send_text(message):
-        if message.text.lower() == '?':
+        if message.text == '?':
             bot.send_message(
                 message.chat.id,
                 f"Just copy and paste needed ticker \n {tickers_str}")
 
-        elif len(message.text.lower()) <= 6:
+        elif len(message.text) <= 6:
             # global word
-            symbol = message.text
+            symbol = message.text.upper()
             try:
                 req = requests.get(f"https://api.binance.com/api/v3/ticker/price?symbol={symbol}USDT")
                 responce = req.json()
@@ -38,7 +38,6 @@ def telegram_bot (token):
                     f"{datetime.now().strftime('%Y-%m-%d %H:%M')}\nSell {(symbol.upper())} price: {sell_price} \nIf you want to see full list of tickers enter \'?\'"
                 )
             except Exception as ex:
-                print(ex)
                 bot.send_message(
                     message.chat.id,
                     'Try correct crypto ticker \nIf you don\'t know what tickers exist, write \'?\'.'

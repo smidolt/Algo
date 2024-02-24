@@ -13,8 +13,7 @@ tickers = [
     'QUICK', 'ORN', 'MINA', 'RAY', 'BAKE', 'AR', 'POND', 'DODO', 'ZEN',
     'CFX', 'TOMOE', 'GTC', 'CTK', 'PUNDIX', 'MDX', 'MIR', 'LIT', 'UTK',
     'XVS', 'LUNA', 'RSR', 'FRONT', 'ALICE', 'LINA', 'DGB', 'STMX', 'SAND',
-    'AUCTION', 'AXS', 'HBAR', 'ASR', 'MASK', 'UND', 'ROSE', 'AVAX', 'XEM',
-    'TRB'
+    'AUCTION', 'AXS', 'HBAR', 'ASR', 'MASK', 'XEM', 'TRB'
 ]
 
 tickers_str = '\n'.join(tickers)
