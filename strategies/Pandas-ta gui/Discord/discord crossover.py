@@ -1,6 +1,6 @@
 import pandas as pd
 import pandas_ta as ta
-import ccxt, yfinance
+import ccxt
 import requests
 from secret import WEB_HOOK_URL
 
