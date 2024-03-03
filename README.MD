@@ -10,7 +10,8 @@ This repository is your go-to for Algorithmic Trading (Algo Trading) strategies.
 
 1. **Strategies Folder:** Explore a variety of algorithmic trading strategies designed for different market conditions and objectives.
 
-2. That's it for now :)
+2. **:** A folder of scripts with small snippets for various tasks.
+
 
 **How to Navigate:**
 
